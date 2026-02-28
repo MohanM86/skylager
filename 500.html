@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>500 – Serverfeil | Skylager.no</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="/assets/img/favicon-32x32.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500;700&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#060918;--c:#0ea5e9;--v:#6366f1;--a5:#ef4444;--tb:#eef4ff;--t:rgba(200,215,245,.72);--td:rgba(120,140,180,.5)}
+html{background:var(--bg)}
+body{font-family:'DM Sans',system-ui,sans-serif;color:var(--t);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px;-webkit-font-smoothing:antialiased;overflow:hidden}
+.aurora{position:fixed;inset:0;pointer-events:none}
+.aurora::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(ellipse at 30% 40%,rgba(239,68,68,.05),transparent 50%),radial-gradient(ellipse at 70% 60%,rgba(99,102,241,.04),transparent 50%);animation:a 20s ease infinite;background-size:200% 200%}
+@keyframes a{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.wrap{position:relative;z-index:1;max-width:540px}
+.code{font-size:clamp(6rem,20vw,10rem);font-weight:700;letter-spacing:-.06em;line-height:1;margin-bottom:16px;background:linear-gradient(135deg,var(--a5),var(--v));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;opacity:.15}
+h1{font-family:'Instrument Serif',serif;font-style:italic;font-size:clamp(1.6rem,4vw,2.4rem);color:var(--tb);margin-bottom:16px;font-weight:400}
+p{font-size:.92rem;font-weight:300;line-height:1.8;margin-bottom:32px;max-width:420px;margin-left:auto;margin-right:auto}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 36px;border-radius:14px;font-size:.86rem;font-weight:600;text-decoration:none;color:#fff;background:linear-gradient(135deg,var(--c),var(--v));box-shadow:0 4px 32px rgba(14,165,233,.2);transition:all .4s}
+.btn:hover{box-shadow:0 8px 48px rgba(14,165,233,.35);transform:translateY(-3px)}
+.btn svg{width:16px;height:16px}
+.links{margin-top:48px;display:flex;gap:24px;flex-wrap:wrap;justify-content:center}
+.links a{color:var(--td);text-decoration:none;font-size:.78rem;font-weight:300;transition:color .3s}.links a:hover{color:var(--c)}
+</style>
+</head>
+<body>
+<div class="aurora"></div>
+<div class="wrap">
+<div class="code">500</div>
+<h1>Noe gikk galt</h1>
+<p>Beklager, serveren vår opplevde en feil. Prøv igjen om noen sekunder, eller gå tilbake til forsiden. Hvis problemet vedvarer, kontakt oss.</p>
+<a href="/" class="btn">Tilbake til Skylager.no <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+<div class="links">
+<a href="https://it-firma.no/kontakt">Kontakt IT-FIRMA</a>
+<a href="https://datalager.no">Datalager.no</a>
+<a href="https://aiquantum.no">AIQUANTUM.no</a>
+</div>
+</div>
+</body>
+</html>

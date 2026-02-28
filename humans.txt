@@ -1,0 +1,28 @@
+/* TEAM */
+Selskap: IT-FIRMA
+Nettsted: https://it-firma.no
+Lokasjon: Norge
+
+/* SKYLAGER.NO */
+Beskrivelse: Norges mest komplette guide til skylagring
+Lansert: Februar 2026
+Teknologi: HTML5, CSS3, vanilla JavaScript
+Fonter: DM Sans (Google Fonts), Instrument Serif (Google Fonts)
+Design: Aurora Borealis Glassmorphism
+
+/* ØKOSYSTEM */
+Skylager.no — Skylagring Norge
+Datalager.no — Datalagring og backup
+AIQUANTUM.no — AI og kvanteteknologi
+Qubits.no — Kvantemaskinvare
+QuantumCloud.no — Kvanteberegning i skyen
+QuantumPay.no — Kvantesikre betalinger
+QuantumSec.no — Offensiv kvantesikkerhet
+QuantumSecurity.no — Enterprise kryptografisk compliance
+Web4.no — Det fjerde internett
+
+/* STANDARDER */
+HTML: W3C valid
+Tilgjengelighet: WCAG 2.1 AA mål
+SEO: Schema.org strukturert data
+Sikkerhet: HTTPS, HSTS, CSP-headers

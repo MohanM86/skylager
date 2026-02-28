@@ -1,0 +1,137 @@
+/*
+ * Skylager.no — Norges guide til skylagring
+ * Design: Aurora Borealis Glassmorphism
+ * Fonts: DM Sans + Instrument Serif
+ * © 2026 IT-FIRMA — https://it-firma.no
+ *
+ * INNHOLD:
+ * 1. Reset & Variabler
+ * 2. Animasjoner
+ * 3. Bakgrunn & Teksturer
+ * 4. Header & Navigasjon
+ * 5. Hero
+ * 6. Seksjoner & Typografi
+ * 7. Glass-kort
+ * 8. Tabeller
+ * 9. Callouts
+ * 10. Steps
+ * 11. Tags & Entiteter
+ * 12. Økosystem-grid
+ * 13. FAQ
+ * 14. Mega Footer
+ * 15. Utility & Helpers
+ * 16. Responsiv
+ */
+
+/* ========================================
+   1. RESET & VARIABLER
+   ======================================== */
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #060918;
+  --bg2: #0a0e24;
+  --bg3: #0d1230;
+  --c: #0ea5e9;
+  --c2: #38bdf8;
+  --c3: #7dd3fc;
+  --v: #6366f1;
+  --v2: #818cf8;
+  --a1: #22d3ee;
+  --a2: #a78bfa;
+  --a3: #34d399;
+  --a4: #f59e0b;
+  --a5: #ef4444;
+  --t: rgba(200, 215, 245, .72);
+  --td: rgba(120, 140, 180, .5);
+  --tb: #eef4ff;
+  --glass: rgba(255, 255, 255, .025);
+  --glass2: rgba(255, 255, 255, .05);
+  --gb: rgba(255, 255, 255, .05);
+  --gbh: rgba(255, 255, 255, .1);
+  --mw: 1100px;
+  --r: 20px;
+  --font: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --transition: cubic-bezier(.16, 1, .3, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+body {
+  font-family: var(--font);
+  color: var(--t);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ========================================
+   2. ANIMASJONER
+   ======================================== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes aurora {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-18px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: .6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+/* ========================================
+   3. BAKGRUNN & TEKSTURER
+   ======================================== */
+.aurora-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.aurora-bg::before {
+  content: '';
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(14, 165, 233, .06), transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(99, 102, 241, .05), transparent 50%),
+    radial-gradient(ellipse at 40% 80%, rgba(34, 211, 238, .04), transparent 50%),
+    radial-gradient(ellipse at 70% 60%, rgba(167, 139, 250, .03), transparent 50%);
+  animation: aurora 30s ease infinite;
+  background-size: 200% 200%;
+}
+
+.aurora-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: .02;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px;
+}
+
+/* Resten av CSS er inline i index.html for ytelse.
+   Denne filen kan brukes som ekstern CSS ved behov.
+   Se index.html <style> blokken for komplett CSS. */

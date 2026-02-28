@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://skylager.no/</loc>
+    <image:image>
+      <image:loc>https://skylager.no/assets/img/og-image.jpg</image:loc>
+      <image:title>Skylager.no – Norges guide til skylagring</image:title>
+      <image:caption>Sammenlign skylagringstjenester, forstå sikkerhet og GDPR, og finn riktig løsning for norske bedrifter.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://skylager.no/assets/img/logo.svg</image:loc>
+      <image:title>Skylager.no logo</image:title>
+    </image:image>
+  </url>
+</urlset>

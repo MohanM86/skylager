@@ -1,0 +1,34 @@
+# robots.txt for skylager.no
+# Norges guide til skylagring
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /tmp/
+
+# Sitemaps
+Sitemap: https://skylager.no/sitemap.xml
+
+# Crawl-delay (optional, respectable bots)
+Crawl-delay: 1
+
+# AI crawlers - welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
