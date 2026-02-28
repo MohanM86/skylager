@@ -240,7 +240,7 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <div class="fg">
 <div class="fc"><div class="fc-ico" style="background:rgba(14,165,233,.06);border-color:rgba(14,165,233,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="1.5"><path d="M6 19a4.5 4.5 0 01-.5-8.97A7 7 0 0119 10a4 4 0 01.5 7.97"/><path d="M12 13v8M8 17l4-4 4 4"/></svg></div><h4>Personlig skylagring</h4><p>Google Drive, iCloud, OneDrive, Dropbox. Automatisk synkronisering av dokumenter, bilder og filer mellom telefon, PC og nettbrett. Gratis opptil 5-15 GB, betalt for mer lagring.</p></div>
 <div class="fc"><div class="fc-ico" style="background:rgba(99,102,241,.06);border-color:rgba(99,102,241,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9l3 3-3 3"/><line x1="14" y1="15" x2="17" y2="15"/></svg></div><h4>Bedriftslagring</h4><p>Microsoft 365 SharePoint, Google Workspace, Dropbox Business. Samarbeid i sanntid, avansert tilgangsstyring, revisjonssporing og sentralisert administrasjon for organisasjoner.</p></div>
-<div class="fc"><div class="fc-ico" style="background:rgba(52,211,153,.06);border-color:rgba(52,211,153,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h4>Enterprise og IaaS</h4><p>AWS S3, Azure Blob Storage, Google Cloud Storage. Objektlagring for utviklere, datainnsjoer, AI/ML-pipelines og arkivering. Skalerbart, programmerbart og pay-per-use. Se <a href="https://quantumcloud.no" class="il">QuantumCloud.no</a> for kvanteberegning.</p></div>
+<div class="fc"><div class="fc-ico" style="background:rgba(52,211,153,.06);border-color:rgba(52,211,153,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><h4>Enterprise og IaaS</h4><p>AWS S3, Azure Blob Storage, Google Cloud Storage. Objektlagring for utviklere, datainnsjøer, AI/ML-pipelines og arkivering. Skalerbart, programmerbart og pay-per-use. Se <a href="https://quantumcloud.no" class="il">QuantumCloud.no</a> for kvanteberegning.</p></div>
 </div>
 
 <h3>Tre typer skylagring</h3>
@@ -290,7 +290,7 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 
 <div class="co c1">
 <div class="co-t">Skjulte kostnader: Egress og API-kall</div>
-<p>De fleste skyleverandorer tar betalt for utganende datatrafikk (egress). AWS og Azure tar typisk 0.70-0.90 kr per GB som lastes ned. For dataintensive applikasjoner kan dette bli kostbart. Wasabi og Backblaze skiller seg ut med lav eller null egress-kostnad. API-kall (GET, PUT, LIST) koster ogsa — vurder dette for applikasjoner med mange smaa filer.</p>
+<p>De fleste skyleverandører tar betalt for utgående datatrafikk (egress). AWS og Azure tar typisk 0.70-0.90 kr per GB som lastes ned. For dataintensive applikasjoner kan dette bli kostbart. Wasabi og Backblaze skiller seg ut med lav eller null egress-kostnad. API-kall (GET, PUT, LIST) kosterogså — vurder dette for applikasjoner med mange små filer.</p>
 </div>
 
 <h3>Bedriftsplattformer med lagring inkludert</h3>
@@ -305,23 +305,23 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <div class="wrap">
 <div class="sm"><div class="sm-line"></div><span class="sm-tag">Sikkerhet</span></div>
 <h2>Sikkerhet og <span class="serif">kryptering</span></h2>
-<p class="sub">Forstaa hvordan dataene dine beskyttes — og truslene.</p>
-<p>Skylagring introduserer et fundamentalt sikkerhetssporsmaal: du gir dataene dine til en tredjepart. Store skyleverandorer investerer milliarder i sikkerhet — ofte langt mer enn noen enkeltbedrift kan. Men du maa forstaa hva som er beskyttet, og hva som ikke er det.</p>
+<p class="sub">Forstå hvordan dataene dine beskyttes — og truslene.</p>
+<p>Skylagring introduserer et fundamentalt sikkerhetsspørsmål: du gir dataene dine til en tredjepart. Store skyleverandører investerer milliarder i sikkerhet — ofte langt mer enn noen enkeltbedrift kan. Men du må forstå hva som er beskyttet, og hva som ikke er det.</p>
 
 <div class="fg">
-<div class="fc"><div class="fc-ico" style="background:rgba(14,165,233,.06);border-color:rgba(14,165,233,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></div><h4>Kryptering i hvile</h4><p>AES-256 er industristandard. Alle store leverandorer krypterer data i hvile automatisk. Noen tilbyr BYOK (Bring Your Own Key) der du kontrollerer nokkelen. Azure Key Vault, AWS KMS og Google Cloud KMS er verktoyene.</p></div>
-<div class="fc"><div class="fc-ico" style="background:rgba(99,102,241,.06);border-color:rgba(99,102,241,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div><h4>Kryptering i transit</h4><p>TLS 1.3 beskytter data under overforing. All kommunikasjon mellom din enhet og skyleverandoren er kryptert. Men TLS bruker RSA/ECDH for nokkelutveksling — begge saarbare for <a href="https://quantumsec.no" class="il r">kvanteangrep</a>.</p></div>
-<div class="fc"><div class="fc-ico" style="background:rgba(52,211,153,.06);border-color:rgba(52,211,153,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.5"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div><h4>Ende-til-ende (E2E)</h4><p>E2E krypterer paa din enhet for sending. Kun du har nokkelen. Proton Drive og Tresorit tilbyr alltid-paa E2E. iCloud og pCloud tilbyr det som valg. Google Drive og OneDrive tilbyr det ikke for vanlige filer.</p></div>
+<div class="fc"><div class="fc-ico" style="background:rgba(14,165,233,.06);border-color:rgba(14,165,233,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></div><h4>Kryptering i hvile</h4><p>AES-256 er industristandard. Alle store leverandører krypterer data i hvile automatisk. Noen tilbyr BYOK (Bring Your Own Key) der du kontrollerer nøkkelen. Azure Key Vault, AWS KMS og Google Cloud KMS er verktøyene.</p></div>
+<div class="fc"><div class="fc-ico" style="background:rgba(99,102,241,.06);border-color:rgba(99,102,241,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div><h4>Kryptering i transit</h4><p>TLS 1.3 beskytter data under overføring. All kommunikasjon mellom din enhet og skyleverandøren er kryptert. Men TLS bruker RSA/ECDH for nøkkelutveksling — begge sårbare for <a href="https://quantumsec.no" class="il r">kvanteangrep</a>.</p></div>
+<div class="fc"><div class="fc-ico" style="background:rgba(52,211,153,.06);border-color:rgba(52,211,153,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.5"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 6v6l4 2"/></svg></div><h4>Ende-til-ende (E2E)</h4><p>E2E krypterer på din enhet for sending. Kun du har nøkkelen. Proton Drive og Tresorit tilbyr alltid-på E2E. iCloud og pCloud tilbyr det som valg. Google Drive og OneDrive tilbyr det ikke for vanlige filer.</p></div>
 </div>
 
 <div class="fg fg2">
 <div class="fc"><div class="fc-ico" style="background:rgba(245,158,11,.06);border-color:rgba(245,158,11,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="1.5"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg></div><h4>Tilgangskontroll og identitet</h4><p>Multi-faktor autentisering (MFA) er essensielt. Rollebasert tilgangsstyring (RBAC) begrenser hvem som ser hva. Conditional Access i Azure AD og IAM i AWS gir finkornet kontroll. Aldri del kontoer mellom ansatte.</p></div>
-<div class="fc"><div class="fc-ico" style="background:rgba(239,68,68,.06);border-color:rgba(239,68,68,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.5"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg></div><h4>Kvantesikkerhet — fremtidens trussel</h4><p>Kvantedatamaskiner vil bryte RSA og ECC som beskytter skylagring i dag. <a href="https://quantumsec.no" class="il r">Harvest Now, Decrypt Later</a> betyr at kryptert data fanget i dag kan dekrypteres i fremtiden. Post-kvante kryptografi er losningen — les mer paa <a href="https://quantumsecurity.no" class="il g">QuantumSecurity.no</a>.</p></div>
+<div class="fc"><div class="fc-ico" style="background:rgba(239,68,68,.06);border-color:rgba(239,68,68,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="1.5"><path d="M12 9v4M12 17h.01"/><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg></div><h4>Kvantesikkerhet — fremtidens trussel</h4><p>Kvantedatamaskiner vil bryte RSA og ECC som beskytter skylagring i dag. <a href="https://quantumsec.no" class="il r">Harvest Now, Decrypt Later</a> betyr at kryptert data fanget i dag kan dekrypteres i fremtiden. Post-kvante kryptografi er løsningen — les mer på <a href="https://quantumsecurity.no" class="il g">QuantumSecurity.no</a>.</p></div>
 </div>
 
 <div class="co c5">
-<div class="co-t">Feilkonfigurering er den storste risikoen</div>
-<p>De fleste skysikkerhetsbrudd skyldes ikke at leverandoren ble hacket — men at kunden konfigurerte feil. Aapne S3-botter, manglende MFA, offentlig tilgjengelige databasesnapshots og feilkonfigurerte tilgangsrettigheter er de vanligste aarsakene. Bruk alltid leverandorens sikkerhetsverktoy: AWS Security Hub, Azure Security Center, Google Security Command Center.</p>
+<div class="co-t">Feilkonfigurering er den største risikoen</div>
+<p>De fleste skysikkerhetsbrudd skyldes ikke at leverandøren ble hacket — men at kunden konfigurerte feil. Åpne S3-botter, manglende MFA, offentlig tilgjengelige databasesnapshots og feilkonfigurerte tilgangsrettigheter er de vanligste årsakene. Bruk alltid leverandørens sikkerhetsverktøy: AWS Security Hub, Azure Security Center, Google Security Command Center.</p>
 </div>
 </div>
 </section>
@@ -333,15 +333,15 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <div class="wrap">
 <div class="sm"><div class="sm-line"></div><span class="sm-tag">Personvern</span></div>
 <h2>GDPR, Schrems II og <span class="serif">datasuverenitet</span></h2>
-<p class="sub">Juridiske krav du maa kjenne for skylagring i Norge.</p>
-<p>GDPR (General Data Protection Regulation) gjelder for all behandling av personopplysninger. Naar du lagrer persondata i skyen, er du behandlingsansvarlig og skyleverandoren er databehandler. Du maa ha en <strong>databehandleravtale</strong> (DPA) paa plass. Alle store skyleverandorer tilbyr standard DPA-er, men du boer lese og forstaa dem.</p>
-<p><strong>Schrems II-dommen</strong> fra EU-domstolen i 2020 ugyldiggjorde Privacy Shield for dataooverforing mellom EU og USA. Dette betyr at overforing av persondata til amerikanske servere krever tilleggstiltak som Standard Contractual Clauses (SCC), risikovurdering og tekniske tiltak som kryptering. I praksis: data bor lagres i EU/EOES der mulig.</p>
-<p><strong>FISA 702 og CLOUD Act</strong> gir amerikanske myndigheter juridisk grunnlag for aa kreve tilgang til data lagret av amerikanske selskaper — uansett hvor dataene fysisk befinner seg. Dette betyr at selv om du lagrer data paa Azures norske datasenter, kan Microsoft teoretisk bli tvunget til aa utlevere data til amerikanske myndigheter. BYOK-kryptering kan redusere denne risikoen.</p>
+<p class="sub">Juridiske krav du må kjenne for skylagring i Norge.</p>
+<p>GDPR (General Data Protection Regulation) gjelder for all behandling av personopplysninger. Når du lagrer persondata i skyen, er du behandlingsansvarlig og skyleverandøren er databehandler. Du må ha en <strong>databehandleravtale</strong> (DPA) på plass. Alle store skyleverandører tilbyr standard DPA-er, men du bør lese og forstå dem.</p>
+<p><strong>Schrems II-dommen</strong> fra EU-domstolen i 2020 ugyldiggjorde Privacy Shield for dataoverføring mellom EU og USA. Dette betyr at overføring av persondata til amerikanske servere krever tilleggstiltak som Standard Contractual Clauses (SCC), risikovurdering og tekniske tiltak som kryptering. I praksis: data bør lagres i EU/EØS der mulig.</p>
+<p><strong>FISA 702 og CLOUD Act</strong> gir amerikanske myndigheter juridisk grunnlag for å kreve tilgang til data lagret av amerikanske selskaper — uansett hvor dataene fysisk befinner seg. Dette betyr at selv om du lagrer data på Azures norske datasenter, kan Microsoft teoretisk bli tvunget til å utlevere data til amerikanske myndigheter. BYOK-kryptering kan redusere denne risikoen.</p>
 
 <div class="gc">
-<h3>Datasenter-lokasjon for store leverandorer</h3>
+<h3>Datasenter-lokasjon for store leverandører</h3>
 <div class="tw-w"><table>
-<thead><tr><th>Leverandor</th><th>Norge</th><th>Norden</th><th>EU</th><th>GDPR DPA</th><th>Schrems II-tiltak</th></tr></thead>
+<thead><tr><th>Leverandør</th><th>Norge</th><th>Norden</th><th>EU</th><th>GDPR DPA</th><th>Schrems II-tiltak</th></tr></thead>
 <tbody>
 <tr><td>Microsoft Azure</td><td style="color:var(--a3)">Oslo, Stavanger</td><td>Sverige, Finland</td><td>Flere</td><td>Ja</td><td>SCC + kryptering</td></tr>
 <tr><td>AWS</td><td>Nei</td><td style="color:var(--c)">Stockholm</td><td>Flere</td><td>Ja</td><td>SCC + kryptering</td></tr>
@@ -353,7 +353,7 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 
 <div class="co c3">
 <div class="co-t">Anbefaling: Azure for norske bedrifter med GDPR-krav</div>
-<p>Microsoft Azure er den eneste store skyleverandoren med datasenter i Norge (Oslo og Stavanger). For virksomheter med strenge GDPR-krav, helseopplysninger eller offentlige data er norsk datalagring en betydelig fordel. Det gir lavere latens, forenklet compliance og full norsk jurisdiksjon over dataene.</p>
+<p>Microsoft Azure er den eneste store skyleverandøren med datasenter i Norge (Oslo og Stavanger). For virksomheter med strenge GDPR-krav, helseopplysninger eller offentlige data er norsk datalagring en betydelig fordel. Det gir lavere latens, forenklet compliance og full norsk jurisdiksjon over dataene.</p>
 </div>
 </div>
 </section>
@@ -369,12 +369,12 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <p>Migrering til skylagring er en strategisk beslutning som krever planlegging. Mange virksomheter har terabyte med data spredt over filservere, NAS-enheter og lokale harddisker. En vellykket migrering handler om å flytte riktig data til riktig sted med minimal forstyrrelse av daglig drift.</p>
 <ol class="steps">
 <li><strong>Dataklassifisering og kartlegging</strong><p>Kartlegg all data: type, volum, sensitivitet og eierskap. Kategoriser i aktiv data (daglig bruk), arkivdata (sjelden tilgang) og slettbar data. Definer hvilke data som inneholder personopplysninger under GDPR. Dette er grunnlaget for hele migreringen.</p></li>
-<li><strong>Velg leverandor og arkitektur</strong><p>Basert paa klassifiseringen: velg leverandor(er) og lagringstype. Sensitiv data i norsk datasenter (Azure). Stor-volum arkiv paa rimelig objektlagring (Backblaze B2). Aktive filer i bedriftsplattform (Microsoft 365, Google Workspace). Se <a href="https://datalager.no" class="il v">Datalager.no</a> for hybrid-strategier.</p></li>
-<li><strong>Sikkerhet og compliance</strong><p>Inngaa databehandleravtaler. Konfigurer kryptering (minimum AES-256 i hvile, TLS 1.3 i transit). Sett opp MFA for alle brukere. Definer tilgangsrettigheter med RBAC. Vurder <a href="https://quantumsecurity.no" class="il g">kvantesikkerhet</a> for langsiktig data.</p></li>
-<li><strong>Pilotmigrering og testing</strong><p>Start med en avdeling eller et datasett. Test ytelse, tilgjengelighet og brukeropplevelse. Verifiser at rettigheter og deling fungerer korrekt. Identifiser og loes problemer for de rammer hele organisasjonen.</p></li>
-<li><strong>Full migrering med parallellkjoring</strong><p>Migrer avdelingsvis. Kjoer lokalt og sky parallelt i en overgangsperiode. Verifiser dataintegritet med sjekksum-validering. Tren ansatte paa nye verktoy og arbeidsflyt.</p></li>
-<li><strong>Backup-strategi og verifisering</strong><p>Sett opp 3-2-1 backup for den nye sky-losningen. Automatiser backup med sky-native verktoy. Test gjenoppretting regelmessig. Slett lokale kopier forst naar sky-losningen er verifisert over tid.</p></li>
-<li><strong>Optimalisering og kostnadskontroll</strong><p>Overvak forbruk med kostnadsverktoy (AWS Cost Explorer, Azure Cost Management). Flytt sjeldent brukt data til billigere lagringsklasser (S3 Glacier, Azure Archive). Sett opp alerts for uventet kostnadsokning. <a href="https://it-firma.no" class="il" target="_blank" rel="noopener">IT-FIRMA</a> tilbyr migreringsstotte.</p></li>
+<li><strong>Velg leverandør og arkitektur</strong><p>Basert på klassifiseringen: velg leverandør(er) og lagringstype. Sensitiv data i norsk datasenter (Azure). Stor-volum arkiv på rimelig objektlagring (Backblaze B2). Aktive filer i bedriftsplattform (Microsoft 365, Google Workspace). Se <a href="https://datalager.no" class="il v">Datalager.no</a> for hybrid-strategier.</p></li>
+<li><strong>Sikkerhet og compliance</strong><p>Inngå databehandleravtaler. Konfigurer kryptering (minimum AES-256 i hvile, TLS 1.3 i transit). Sett opp MFA for alle brukere. Definer tilgangsrettigheter med RBAC. Vurder <a href="https://quantumsecurity.no" class="il g">kvantesikkerhet</a> for langsiktig data.</p></li>
+<li><strong>Pilotmigrering og testing</strong><p>Start med en avdeling eller et datasett. Test ytelse, tilgjengelighet og brukeropplevelse. Verifiser at rettigheter og deling fungerer korrekt. Identifiser og løs problemer før de rammer hele organisasjonen.</p></li>
+<li><strong>Full migrering med parallellkjøring</strong><p>Migrer avdelingsvis. Kjør lokalt og sky parallelt i en overgangsperiode. Verifiser dataintegritet med sjekksum-validering. Tren ansatte på nye verktøy og arbeidsflyt.</p></li>
+<li><strong>Backup-strategi og verifisering</strong><p>Sett opp 3-2-1 backup for den nye sky-løsningen. Automatiser backup med sky-native verktøy. Test gjenoppretting regelmessig. Slett lokale kopier først når sky-løsningen er verifisert over tid.</p></li>
+<li><strong>Optimalisering og kostnadskontroll</strong><p>Overvak forbruk med kostnadsverktøy (AWS Cost Explorer, Azure Cost Management). Flytt sjeldent brukt data til billigere lagringsklasser (S3 Glacier, Azure Archive). Sett opp alerts for uventet kostnadsokning. <a href="https://it-firma.no" class="il" target="_blank" rel="noopener">IT-FIRMA</a> tilbyr migreringsstotte.</p></li>
 </ol>
 </div>
 </section>
@@ -386,21 +386,21 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <div class="wrap">
 <div class="sm"><div class="sm-line"></div><span class="sm-tag">Backup</span></div>
 <h2>Backup-strategier for <span class="serif">skylagring</span></h2>
-<p class="sub">Skylagring er ikke backup. Her er forskjellen og losningen.</p>
-<p>En av de vanligste misforstaaelsene er at skylagring og backup er det samme. Det er de ikke. <strong>Skylagring synkroniserer</strong> — hvis du sletter en fil lokalt, slettes den ogsa i skyen. <strong>Backup beskytter</strong> — en uavhengig kopi som overlever sletting, ransomware og brukerfeil. Du trenger begge deler.</p>
+<p class="sub">Skylagring er ikke backup. Her er forskjellen og løsningen.</p>
+<p>En av de vanligste misforståelsene er at skylagring og backup er det samme. Det er de ikke. <strong>Skylagring synkroniserer</strong> — hvis du sletter en fil lokalt, slettes denogså i skyen. <strong>Backup beskytter</strong> — en uavhengig kopi som overlever sletting, ransomware og brukerfeil. Du trenger begge deler.</p>
 
 <div class="co c1">
 <div class="co-t">3-2-1 backup-regelen — gullstandarden</div>
-<p><strong>3 kopier</strong> av dataene (original + 2 backup). <strong>2 forskjellige medietyper</strong> (sky + lokal disk, eller to ulike skyleverandorer). <strong>1 kopi offsite</strong> (geografisk atskilt fra originalen). For skylagring betyr dette: originalen i Microsoft 365, en backup i Azure Backup, og en kopi hos Backblaze B2 eller paa lokal NAS. <a href="https://datalager.no" class="il v">Datalager.no</a> dekker backup i dybden.</p>
+<p><strong>3 kopier</strong> av dataene (original + 2 backup). <strong>2 forskjellige medietyper</strong> (sky + lokal disk, eller to ulike skyleverandører). <strong>1 kopi offsite</strong> (geografisk atskilt fra originalen). For skylagring betyr dette: originalen i Microsoft 365, en backup i Azure Backup, og en kopi hos Backblaze B2 eller på lokal NAS. <a href="https://datalager.no" class="il v">Datalager.no</a> dekker backup i dybden.</p>
 </div>
 
 <div class="fg fg2">
-<div class="fc"><div class="fc-ico" style="background:rgba(14,165,233,.06);border-color:rgba(14,165,233,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="1.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><path d="M7 10l5 5 5-5"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div><h4>Sky-til-sky backup</h4><p>Backup av Microsoft 365, Google Workspace og andre SaaS-data til en uavhengig skyleverandor. Verktoy: Veeam Backup for M365, Backupify, Spanning. Beskytter mot utilsiktet sletting, ransomware og leverandorproblemer.</p></div>
-<div class="fc"><div class="fc-ico" style="background:rgba(99,102,241,.06);border-color:rgba(99,102,241,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 12h16"/><path d="M12 4v16"/></svg></div><h4>Hybrid backup</h4><p>Kombinasjon av lokal backup (NAS, ekstern disk) og skybackup. Gir rask gjenoppretting fra lokal kopi og katastrofebeskyttelse fra sky-kopi. Ideelt for bedrifter som trenger baade hastighet og sikkerhet. Se <a href="https://datalager.no" class="il v">Datalager.no</a>.</p></div>
+<div class="fc"><div class="fc-ico" style="background:rgba(14,165,233,.06);border-color:rgba(14,165,233,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" stroke-width="1.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><path d="M7 10l5 5 5-5"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div><h4>Sky-til-sky backup</h4><p>Backup av Microsoft 365, Google Workspace og andre SaaS-data til en uavhengig skyleverandør. Verktøy: Veeam Backup for M365, Backupify, Spanning. Beskytter mot utilsiktet sletting, ransomware og leverandørproblemer.</p></div>
+<div class="fc"><div class="fc-ico" style="background:rgba(99,102,241,.06);border-color:rgba(99,102,241,.1)"><svg viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 12h16"/><path d="M12 4v16"/></svg></div><h4>Hybrid backup</h4><p>Kombinasjon av lokal backup (NAS, ekstern disk) og skybackup. Gir rask gjenoppretting fra lokal kopi og katastrofebeskyttelse fra sky-kopi. Ideelt for bedrifter som trenger både hastighet og sikkerhet. Se <a href="https://datalager.no" class="il v">Datalager.no</a>.</p></div>
 </div>
 
 <h3>Ransomware-beskyttelse</h3>
-<p>Ransomware er en av de storste truslene mot bedriftsdata. Angripere krypterer filene dine og krever losepenger. Skylagring alene beskytter ikke — ransomware kan synkronisere krypterte filer til skyen. <strong>Immutable backup</strong> (uforanderlig backup) er losningen: data som ikke kan endres eller slettes i en definert periode. AWS S3 Object Lock, Azure Immutable Blob Storage og Backblaze B2 tilbyr dette. Kombiner med versjonering og retention policies for fullstendig beskyttelse.</p>
+<p>Ransomware er en av de største truslene mot bedriftsdata. Angripere krypterer filene dine og krever løsepenger. Skylagring alene beskytter ikke — ransomware kan synkronisere krypterte filer til skyen. <strong>Immutable backup</strong> (uforanderlig backup) er løsningen: data som ikke kan endres eller slettes i en definert periode. AWS S3 Object Lock, Azure Immutable Blob Storage og Backblaze B2 tilbyr dette. Kombiner med versjonering og retention policies for fullstendig beskyttelse.</p>
 </div>
 </section>
 
@@ -412,12 +412,12 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <div class="sm"><div class="sm-line"></div><span class="sm-tag">Arkitektur</span></div>
 <h2>Hybrid sky og <span class="serif">multi-sky strategi</span></h2>
 <p class="sub">Hvorfor de fleste bedrifter ender med mer enn én sky.</p>
-<p><strong>Hybrid sky</strong> kombinerer lokal lagring med skylagring. Sensitive data og tidskritiske applikasjoner kan holdes lokalt, mens storvolum-data og samarbeidsfiler lagres i skyen. Azure Arc og AWS Outposts gjor det mulig aa kjore skyverktoy paa egen infrastruktur.</p>
-<p><strong>Multi-sky</strong> bruker flere skyleverandorer strategisk. Microsoft 365 for produktivitet, AWS S3 for utviklerdata, Backblaze B2 for backup. Fordelene er unngaaelse av vendor lock-in, prisoptimalisering og mulighet til aa bruke best-of-breed tjenester. Ulempen er okt kompleksitet i administrasjon og sikkerhet.</p>
+<p><strong>Hybrid sky</strong> kombinerer lokal lagring med skylagring. Sensitive data og tidskritiske applikasjoner kan holdes lokalt, mens storvolum-data og samarbeidsfiler lagres i skyen. Azure Arc og AWS Outposts gjør det mulig å kjore skyverktøy på egen infrastruktur.</p>
+<p><strong>Multi-sky</strong> bruker flere skyleverandører strategisk. Microsoft 365 for produktivitet, AWS S3 for utviklerdata, Backblaze B2 for backup. Fordelene er unngåelse av vendor lock-in, prisoptimalisering og mulighet til å bruke best-of-breed tjenester. Ulempen er økt kompleksitet i administrasjon og sikkerhet.</p>
 
 <div class="co c2">
 <div class="co-t">Datasuverenitet og norsk lagring</div>
-<p>For sensitive norske data — helseopplysninger, offentlige data, gradert informasjon — er norsk datalagring ofte et krav. Azure er den eneste hyperscaler med datasenter i Norge. Alternativt kan norske dataleverandorer som Basefarm/Orange, Green Mountain og Bulk Infrastructure tilby lokal sky-infrastruktur. Kombiner med <a href="https://quantumsecurity.no" class="il g">kvantesikker kryptering</a> for langsiktig beskyttelse.</p>
+<p>For sensitive norske data — helseopplysninger, offentlige data, gradert informasjon — er norsk datalagring ofte et krav. Azure er den eneste hyperscaler med datasenter i Norge. Alternativt kan norske dataleverandører som Basefarm/Orange, Green Mountain og Bulk Infrastructure tilby lokal sky-infrastruktur. Kombiner med <a href="https://quantumsecurity.no" class="il g">kvantesikker kryptering</a> for langsiktig beskyttelse.</p>
 </div>
 </div>
 </section>
@@ -427,15 +427,15 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <!-- PRISER -->
 <section id="priser" class="rv">
 <div class="wrap">
-<div class="sm"><div class="sm-line"></div><span class="sm-tag">Okonomi</span></div>
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Økonomi</span></div>
 <h2>Priser og <span class="serif">kostnadsoptimalisering</span></h2>
-<p class="sub">Forstaa den reelle kostnaden ved skylagring.</p>
-<p>Skylagring virker billig — noen ore per gigabyte per maaned. Men totalkostnaden inkluderer lagring, egress (nedlasting), API-kall, krypteringsnokkelforvaltning, backup og administrasjon. En virksomhet med 10 TB data kan betale alt fra 500 kr til 5000 kr per maaned avhengig av leverandor og bruksmoenster.</p>
+<p class="sub">Forstå den reelle kostnaden ved skylagring.</p>
+<p>Skylagring virker billig — noen øre per gigabyte per måned. Men totalkostnaden inkluderer lagring, egress (nedlasting), API-kall, krypteringsnøkkelforvaltning, backup og administrasjon. En virksomhet med 10 TB data kan betale alt fra 500 kr til 5000 kr per måned avhengig av leverandør og bruksmønster.</p>
 
 <div class="gc">
-<h3>Kostnadssammenligning — 10 TB lagring per maaned</h3>
+<h3>Kostnadssammenligning — 10 TB lagring per måned</h3>
 <div class="tw-w"><table>
-<thead><tr><th>Leverandor</th><th>Lagring</th><th>Egress (1 TB/mnd)</th><th>API-kall</th><th>Total estimat</th></tr></thead>
+<thead><tr><th>Leverandør</th><th>Lagring</th><th>Egress (1 TB/mnd)</th><th>API-kall</th><th>Total estimat</th></tr></thead>
 <tbody>
 <tr><td>AWS S3 Standard</td><td>2 000 kr</td><td>750 kr</td><td>~100 kr</td><td><strong>~2 850 kr</strong></td></tr>
 <tr><td>Azure Blob Hot</td><td>1 800 kr</td><td>700 kr</td><td>~80 kr</td><td><strong>~2 580 kr</strong></td></tr>
@@ -446,7 +446,7 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 </div>
 
 <h3>Lagringsklasser og livssykluspolicyer</h3>
-<p>Alle store leverandorer tilbyr flere lagringsklasser med ulik pris og tilgjengelighet. <strong>Hot/Standard</strong> for aktiv data (hoyest pris, lavest latens). <strong>Cool/Infrequent</strong> for data som aksesseres sjeldent (30-40% billigere). <strong>Archive/Glacier</strong> for langtidsarkivering (80-90% billigere, men timer til dager for henting). Automatiser med livssykluspolicyer: data eldre enn 90 dager flyttes automatisk til billigere klasse.</p>
+<p>Alle store leverandører tilbyr flere lagringsklasser med ulik pris og tilgjengelighet. <strong>Hot/Standard</strong> for aktiv data (hoyest pris, lavest latens). <strong>Cool/Infrequent</strong> for data som aksesseres sjeldent (30-40% billigere). <strong>Archive/Glacier</strong> for langtidsarkivering (80-90% billigere, men timer til dager for henting). Automatiser med livssykluspolicyer: data eldre enn 90 dager flyttes automatisk til billigere klasse.</p>
 </div>
 </section>
 
@@ -456,10 +456,10 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <section id="begreper" class="rv">
 <div class="wrap">
 <div class="sm"><div class="sm-line"></div><span class="sm-tag">Ordliste</span></div>
-<h2>Noekkelbegreper for <span class="serif">skylagring</span></h2>
+<h2>Nøkkelbegreper for <span class="serif">skylagring</span></h2>
 <p class="sub">Det komplette vokabularet.</p>
-<p><strong>Objektlagring</strong> lagrer data som objekter med metadata — ideelt for ustrukturert data. <strong>Bloklagring</strong> deler data i blokker for databaser og VM-er. <strong>Fillagring</strong> bruker filsystem med mapper. <strong>Egress</strong> er kostnaden for aa hente data ut av skyen. <strong>BYOK</strong> (Bring Your Own Key) gir deg kontroll over krypteringsnoklene. <strong>SLA</strong> garanterer oppetid, typisk 99.9-99.99%. <strong>Redundans</strong> betyr data lagres paa flere steder for aa overleve feil. <strong>Geo-redundans</strong> lagrer kopier i ulike geografiske regioner.</p>
-<p><strong>Immutable storage</strong> er lagring som ikke kan endres eller slettes i en definert periode — kritisk for ransomware-beskyttelse. <strong>Versjonering</strong> beholder tidligere versjoner av filer slik at du kan gaa tilbake. <strong>Livssykluspolicy</strong> automatiserer flytting av data mellom lagringsklasser basert paa alder. <strong>CDN</strong> (Content Delivery Network) distribuerer data globalt for raskere tilgang. <strong>Databehandleravtale</strong> er den juridiske avtalen mellom deg og skyleverandoren under GDPR.</p>
+<p><strong>Objektlagring</strong> lagrer data som objekter med metadata — ideelt for ustrukturert data. <strong>Bloklagring</strong> deler data i blokker for databaser og VM-er. <strong>Fillagring</strong> bruker filsystem med mapper. <strong>Egress</strong> er kostnaden for å hente data ut av skyen. <strong>BYOK</strong> (Bring Your Own Key) gir deg kontroll over krypteringsnøklene. <strong>SLA</strong> garanterer oppetid, typisk 99.9-99.99%. <strong>Redundans</strong> betyr data lagres på flere steder for å overleve feil. <strong>Geo-redundans</strong> lagrer kopier i ulike geografiske regioner.</p>
+<p><strong>Immutable storage</strong> er lagring som ikke kan endres eller slettes i en definert periode — kritisk for ransomware-beskyttelse. <strong>Versjonering</strong> beholder tidligere versjoner av filer slik at du kan gå tilbake. <strong>Livssykluspolicy</strong> automatiserer flytting av data mellom lagringsklasser basert på alder. <strong>CDN</strong> (Content Delivery Network) distribuerer data globalt for raskere tilgang. <strong>Databehandleravtale</strong> er den juridiske avtalen mellom deg og skyleverandøren under GDPR.</p>
 <div class="ents">
 <span class="tag">Skylagring</span><span class="tag">Cloud storage</span><span class="tag">Objektlagring</span><span class="tag">Bloklagring</span><span class="tag">Fillagring</span><span class="tag">AES-256</span><span class="tag">E2E-kryptering</span><span class="tag">BYOK</span><span class="tag">CMEK</span><span class="tag">GDPR</span><span class="tag">Schrems II</span><span class="tag">FISA 702</span><span class="tag">CLOUD Act</span><span class="tag">Databehandleravtale</span><span class="tag">SLA</span><span class="tag">Egress</span><span class="tag">Redundans</span><span class="tag">Geo-redundans</span><span class="tag">3-2-1 regelen</span><span class="tag">Immutable storage</span><span class="tag">Versjonering</span><span class="tag">Livssykluspolicy</span><span class="tag">CDN</span><span class="tag">Google Drive</span><span class="tag">OneDrive</span><span class="tag">iCloud</span><span class="tag">Dropbox</span><span class="tag">Proton Drive</span><span class="tag">Tresorit</span><span class="tag">AWS S3</span><span class="tag">Azure Blob</span><span class="tag">Google Cloud Storage</span><span class="tag">Backblaze B2</span><span class="tag">Wasabi</span><span class="tag">Hetzner</span><span class="tag">NAS</span><span class="tag">SAN</span><span class="tag">Hybrid sky</span><span class="tag">Multi-sky</span><span class="tag">Datasuverenitet</span><span class="tag">Kvantesikker</span><span class="tag">Post-kvante</span><span class="tag">Ransomware</span><span class="tag">MFA</span><span class="tag">RBAC</span><span class="tag">Zero Trust</span>
 </div>
@@ -468,19 +468,19 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 
 <hr class="divider">
 
-<!-- OKOSYSTEM -->
-<section id="okosystem" class="rv">
+<!-- ØKOSYSTEM -->
+<section id="økosystem" class="rv">
 <div class="wrap">
-<div class="sm"><div class="sm-line"></div><span class="sm-tag">Okosystem</span></div>
-<h2>IT-FIRMA <span class="serif">okosystemet</span></h2>
+<div class="sm"><div class="sm-line"></div><span class="sm-tag">Økosystem</span></div>
+<h2>IT-FIRMA <span class="serif">økosystemet</span></h2>
 <p class="sub">Ni spesialiserte plattformer. Ett sammenhengende nettverk av kunnskap og tjenester.</p>
-<p>Skylager.no er del av Norges mest omfattende okosystem for teknologi, sikkerhet og digital infrastruktur. Hver plattform dekker et spesialisert omraade — fra <a href="https://qubits.no" class="il g">kvantemaskinvare</a> til <a href="https://quantumpay.no" class="il o">kvantesikre betalinger</a>. Sammen gir de en komplett ressurs for norske virksomheter som vil forstaa og forberede seg paa fremtidens teknologi.</p>
+<p>Skylager.no er del av Norges mest omfattende økosystem for teknologi, sikkerhet og digital infrastruktur. Hver plattform dekker et spesialisert område — fra <a href="https://qubits.no" class="il g">kvantemaskinvare</a> til <a href="https://quantumpay.no" class="il o">kvantesikre betalinger</a>. Sammen gir de en komplett ressurs for norske virksomheter som vil forstå og forberede seg på fremtidens teknologi.</p>
 
 <div class="eco">
-<a href="https://aiquantum.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#00e5ff;box-shadow:0 0 8px #00e5ff"></div><h4>AIQUANTUM.no</h4><p>AI og kvanteteknologi. Navet i okosystemet. Strategisk handlingsplan for norske virksomheter.</p><span class="arr">Utforsk &rarr;</span></a>
+<a href="https://aiquantum.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#00e5ff;box-shadow:0 0 8px #00e5ff"></div><h4>AIQUANTUM.no</h4><p>AI og kvanteteknologi. Navet i økosystemet. Strategisk handlingsplan for norske virksomheter.</p><span class="arr">Utforsk &rarr;</span></a>
 <a href="https://qubits.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#00ff88;box-shadow:0 0 8px #00ff88"></div><h4>Qubits.no</h4><p>Kvantemaskinvare, qubit-teknologier, feilkorrigering og kvantevolum.</p><span class="arr">Utforsk &rarr;</span></a>
 <a href="https://quantumcloud.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#3b82f6;box-shadow:0 0 8px #3b82f6"></div><h4>QuantumCloud.no</h4><p>Kvanteberegning via skyen. IBM Quantum, Amazon Braket, Azure Quantum.</p><span class="arr">Utforsk &rarr;</span></a>
-<a href="https://quantumpay.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#f59e0b;box-shadow:0 0 8px #f59e0b"></div><h4>QuantumPay.no</h4><p>Kvantesikre betalinger, fintech, kryptovaluta-saarbarhet og SWIFT-migrering.</p><span class="arr">Utforsk &rarr;</span></a>
+<a href="https://quantumpay.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#f59e0b;box-shadow:0 0 8px #f59e0b"></div><h4>QuantumPay.no</h4><p>Kvantesikre betalinger, fintech, kryptovaluta-sårbarhet og SWIFT-migrering.</p><span class="arr">Utforsk &rarr;</span></a>
 <a href="https://quantumsec.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#ef4444;box-shadow:0 0 8px #ef4444"></div><h4>QuantumSec.no</h4><p>Offensiv kvantesikkerhet, trusselanalyse, HNDL og red team-perspektiv.</p><span class="arr">Utforsk &rarr;</span></a>
 <a href="https://quantumsecurity.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#10b981;box-shadow:0 0 8px #10b981"></div><h4>QuantumSecurity.no</h4><p>Enterprise-compliance, NIST PQC-standarder, migreringsrammeverk og kryptoagilitet.</p><span class="arr">Utforsk &rarr;</span></a>
 <a href="https://web4.no" class="eco-c" target="_blank" rel="noopener"><div class="eco-dot" style="background:#a855f7;box-shadow:0 0 8px #a855f7"></div><h4>Web4.no</h4><p>Det fjerde internett. AI, kvante, spatial computing og autonome systemer.</p><span class="arr">Utforsk &rarr;</span></a>
@@ -496,45 +496,45 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <div class="wrap">
 <div class="sm"><div class="sm-line"></div><span class="sm-tag">Sporsmal og svar</span></div>
 <h2>Ofte stilte sporsmal om <span class="serif">skylagring</span></h2>
-<p class="sub">20 svar som dekker alt du trenger aa vite.</p>
+<p class="sub">20 svar som dekker alt du trenger å vite.</p>
 
-<div class="faq-item"><div class="faq-q">Hva er skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Skylagring er lagring av data paa eksterne servere tilgjengelig via internett. Istedenfor lokale harddisker lagres dataene hos en skyleverandor som Google, Microsoft eller Amazon. Du faar tilgang fra alle enheter, og leverandoren sorger for sikkerhet, redundans og tilgjengelighet. Dataene synkroniseres automatisk mellom enheter.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Skylagring er lagring av data på eksterne servere tilgjengelig via internett. Istedenfor lokale harddisker lagres dataene hos en skyleverandør som Google, Microsoft eller Amazon. Du får tilgang fra alle enheter, og leverandøren sørger for sikkerhet, redundans og tilgjengelighet. Dataene synkroniseres automatisk mellom enheter.</div></div>
 
 <div class="faq-item"><div class="faq-q">Hvilken skylagringstjeneste er best for norske bedrifter?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">For de fleste: Microsoft 365 med OneDrive og SharePoint — det integrerer med eksisterende arbeidsflyt og Azure har datasenter i Norge (Oslo, Stavanger). Google Workspace passer samarbeidsorienterte team. AWS S3 og Azure Blob er best for utviklere og storskala data. <a href="https://it-firma.no" class="il" target="_blank" rel="noopener">IT-FIRMA</a> hjelper med valg og implementering.</div></div>
 
-<div class="faq-item"><div class="faq-q">Er skylagring trygt?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Store skyleverandorer investerer milliarder i sikkerhet og tilbyr AES-256-kryptering, redundans og tilgangskontroll. Risikoen ligger oftest i feilkonfigurering, svake passord og manglende MFA. For langsiktig sikkerhet boer <a href="https://quantumsecurity.no" class="il g">kvantesikker kryptering</a> vurderes fordi kvantedatamaskiner vil bryte dagens asymmetriske kryptografi.</div></div>
+<div class="faq-item"><div class="faq-q">Er skylagring trygt?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Store skyleverandører investerer milliarder i sikkerhet og tilbyr AES-256-kryptering, redundans og tilgangskontroll. Risikoen ligger oftest i feilkonfigurering, svake passord og manglende MFA. For langsiktig sikkerhet bør <a href="https://quantumsecurity.no" class="il g">kvantesikker kryptering</a> vurderes fordi kvantedatamaskiner vil bryte dagens asymmetriske kryptografi.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva sier GDPR om skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">GDPR krever databehandleravtale (DPA) med skyleverandoren, informasjon om hvor data lagres, og tilstrekkelig beskyttelse ved overforing til tredjeland. Schrems II-dommen krever tilleggstiltak ved overforing til USA — Standard Contractual Clauses, risikovurdering og tekniske tiltak som kryptering.</div></div>
+<div class="faq-item"><div class="faq-q">Hva sier GDPR om skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">GDPR krever databehandleravtale (DPA) med skyleverandøren, informasjon om hvor data lagres, og tilstrekkelig beskyttelse ved overføring til tredjeland. Schrems II-dommen krever tilleggstiltak ved overføring til USA — Standard Contractual Clauses, risikovurdering og tekniske tiltak som kryptering.</div></div>
 
 <div class="faq-item"><div class="faq-q">Hvor mye koster skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Personlig: Google Drive 15 GB gratis, 100 GB fra ~20 kr/mnd. Bedrift: Microsoft 365 gir 1 TB for ~100 kr/mnd per bruker. Enterprise: AWS S3 ~0.20 kr/GB/mnd (2 000 kr for 10 TB), Backblaze B2 ~0.05 kr/GB/mnd (500 kr for 10 TB). Husk egress-kostnader, API-kall og administrasjon i totalregnestykket.</div></div>
 
 <div class="faq-item"><div class="faq-q">Hva er forskjellen mellom skylagring og backup?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Skylagring synkroniserer filer mellom enheter — sletter du lokalt, slettes det i skyen. Backup er en beskyttet, uavhengig kopi for gjenoppretting ved datatap, ransomware eller brukerfeil. Du trenger begge: skylagring for daglig bruk, backup for katastrofegjenoppretting. <a href="https://datalager.no" class="il v">Datalager.no</a> har komplette backup-guider.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er 3-2-1 backup-regelen?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Gullstandarden for backup: 3 kopier av dataene, paa 2 forskjellige medietyper, med 1 kopi offsite. For skylagring: originalen i Microsoft 365, en backup i Azure Backup eller Veeam, og en tredje kopi hos Backblaze B2 eller paa lokal NAS. Se <a href="https://datalager.no" class="il v">Datalager.no</a> for detaljerte strategier.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er 3-2-1 backup-regelen?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Gullstandarden for backup: 3 kopier av dataene, på 2 forskjellige medietyper, med 1 kopi offsite. For skylagring: originalen i Microsoft 365, en backup i Azure Backup eller Veeam, og en tredje kopi hos Backblaze B2 eller på lokal NAS. Se <a href="https://datalager.no" class="il v">Datalager.no</a> for detaljerte strategier.</div></div>
 
-<div class="faq-item"><div class="faq-q">Boer data lagres i Norge?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">For sensitive personopplysninger, helsejournaler og regulert data: ja. Azure har datasenter i Oslo og Stavanger — unikt blant hyperscalere. Norsk lagring gir enklere GDPR-compliance, lavere latens for norske brukere, og juridisk klarhet. AWS (Stockholm) og Google (Finland) er gode EU/EOES-alternativer.</div></div>
+<div class="faq-item"><div class="faq-q">Bør data lagres i Norge?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">For sensitive personopplysninger, helsejournaler og regulert data: ja. Azure har datasenter i Oslo og Stavanger — unikt blant hyperscalere. Norsk lagring gir enklere GDPR-compliance, lavere latens for norske brukere, og juridisk klarhet. AWS (Stockholm) og Google (Finland) er gode EU/EØS-alternativer.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er kvantesikker skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Kvantesikker skylagring bruker post-kvante kryptografi som motstaar angrep fra <a href="https://qubits.no" class="il g">kvantedatamaskiner</a>. Dagens RSA og ECC vil brytes av Shors algoritme. NIST har standardisert CRYSTALS-Kyber (nokkelutveksling) og CRYSTALS-Dilithium (signaturer) som erstatning. <a href="https://quantumsecurity.no" class="il g">QuantumSecurity.no</a> har migreringsveiledning.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er kvantesikker skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Kvantesikker skylagring bruker post-kvante kryptografi som motstår angrep fra <a href="https://qubits.no" class="il g">kvantedatamaskiner</a>. Dagens RSA og ECC vil brytes av Shors algoritme. NIST har standardisert CRYSTALS-Kyber (nøkkelutveksling) og CRYSTALS-Dilithium (signaturer) som erstatning. <a href="https://quantumsecurity.no" class="il g">QuantumSecurity.no</a> har migreringsveiledning.</div></div>
 
-<div class="faq-item"><div class="faq-q">Kan jeg stole paa amerikanske skyleverandorer?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Teknisk sikkerhet er hoy. Juridisk er det komplisert: FISA 702 og CLOUD Act gir amerikanske myndigheter potensiell tilgang til data — selv data lagret i Europa. Schrems II krever tilleggstiltak. BYOK-kryptering med egne nokler som leverandoren ikke har tilgang til kan redusere risikoen betydelig.</div></div>
+<div class="faq-item"><div class="faq-q">Kan jeg stole på amerikanske skyleverandører?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Teknisk sikkerhet erhøy. Juridisk er det komplisert: FISA 702 og CLOUD Act gir amerikanske myndigheter potensiell tilgang til data — selv data lagret i Europa. Schrems II krever tilleggstiltak. BYOK-kryptering med egne nøkler som leverandøren ikke har tilgang til kan redusere risikoen betydelig.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er objektlagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Objektlagring lagrer data som individuelle objekter med unik ID og metadata — istedenfor i et filsystem med mapper. Skalerer nesten ubegrenset og er optimalisert for store mengder ustrukturert data: bilder, video, loggfiler, backup og datainnsjoer. AWS S3, Azure Blob og Google Cloud Storage er alle objektlagring.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er objektlagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Objektlagring lagrer data som individuelle objekter med unik ID og metadata — istedenfor i et filsystem med mapper. Skalerer nesten ubegrenset og er optimalisert for store mengder ustrukturert data: bilder, video, loggfiler, backup og datainnsjøer. AWS S3, Azure Blob og Google Cloud Storage er alle objektlagring.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er hybrid skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Hybrid sky kombinerer lokal lagring (on-premise servere, NAS) med skylagring. Sensitive data kan holdes lokalt mens mindre sensitiv data lagres i skyen. Gir fleksibilitet, kontroll og optimert ytelse. Azure Arc og AWS Outposts muliggjor hybrid-arkitekturer. <a href="https://datalager.no" class="il v">Datalager.no</a> dekker hybrid-strategier.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er hybrid skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Hybrid sky kombinerer lokal lagring (on-premise servere, NAS) med skylagring. Sensitive data kan holdes lokalt mens mindre sensitiv data lagres i skyen. Gir fleksibilitet, kontroll og optimert ytelse. Azure Arc og AWS Outposts muliggjør hybrid-arkitekturer. <a href="https://datalager.no" class="il v">Datalager.no</a> dekker hybrid-strategier.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er multi-sky strategi?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Multi-sky bruker flere skyleverandorer for aa unngaa avhengighet (vendor lock-in). Eksempel: Microsoft 365 for produktivitet, AWS S3 for utviklerdata, Backblaze B2 for backup. Fordeler: prisoptimalisering, redundans, best-of-breed. Ulemper: okt kompleksitet og administrasjonskostnad.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er multi-sky strategi?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Multi-sky bruker flere skyleverandører for å unngaa avhengighet (vendor lock-in). Eksempel: Microsoft 365 for produktivitet, AWS S3 for utviklerdata, Backblaze B2 for backup. Fordeler: prisoptimalisering, redundans, best-of-breed. Ulemper: økt kompleksitet og administrasjonskostnad.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er egress-kostnader?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Egress er kostnaden for aa laste ned data fra skyen. De fleste leverandorer tar 0.50-0.90 kr per GB. For 1 TB nedlasting kan det bli 500-900 kr. Wasabi og Cloudflare R2 har null egress. Backblaze B2 har lav egress. Vurder egress-kostnader for dataintensive applikasjoner — de kan overskride lagringskostnaden.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er egress-kostnader?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Egress er kostnaden for å laste ned data fra skyen. De fleste leverandører tar 0.50-0.90 kr per GB. For 1 TB nedlasting kan det bli 500-900 kr. Wasabi og Cloudflare R2 har null egress. Backblaze B2 har lav egress. Vurder egress-kostnader for dataintensive applikasjoner — de kan overskride lagringskostnaden.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er ende-til-ende kryptering (E2E)?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">E2E krypterer data paa din enhet for det sendes til skyen, og kun du har dekrypteringsnokkelen. Skyleverandoren kan ikke lese dataene dine. Proton Drive og Tresorit tilbyr alltid-paa E2E. iCloud tilbyr det med Advanced Data Protection. Google Drive og OneDrive har ikke E2E for vanlige filer.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er ende-til-ende kryptering (E2E)?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">E2E krypterer data på din enhet for det sendes til skyen, og kun du har dekrypteringsnøkkelen. Skyleverandøren kan ikke lese dataene dine. Proton Drive og Tresorit tilbyr alltid-på E2E. iCloud tilbyr det med Advanced Data Protection. Google Drive og OneDrive har ikke E2E for vanlige filer.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva skjer med dataene mine hvis skyleverandoren legges ned?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Store leverandorer (Google, Microsoft, Amazon) har ekstremt lav risiko for dette. Mindre leverandorer boer vurderes noyere. Uansett: folg alltid 3-2-1 regelen med backup hos en annen leverandor. Sjekk ogaa leverandorens eksportmuligheter — du boer kunne laste ned all data i standard formater.</div></div>
+<div class="faq-item"><div class="faq-q">Hva skjer med dataene mine hvis skyleverandøren legges ned?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Store leverandører (Google, Microsoft, Amazon) har ekstremt lav risiko for dette. Mindre leverandører bør vurderes nøyere. Uansett: følg alltid 3-2-1 regelen med backup hos en annen leverandør. Sjekk ogaa leverandørens eksportmuligheter — du bør kunne laste ned all data i standard formater.</div></div>
 
 <div class="faq-item"><div class="faq-q">Kan skylagring brukes for helseopplysninger?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Ja, med riktige tiltak. Helseopplysninger er saerlige kategorier under GDPR og norsk helselovgivning (pasientjournalloven). Krev: databehandleravtale, AES-256-kryptering, MFA, tilgangsstyring, revisjonssporing, og fortrinnsvis lagring i Norge (Azure Oslo/Stavanger). Normen for informasjonssikkerhet i helsesektoren gir detaljerte krav.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hva er Bring Your Own Key (BYOK)?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">BYOK lar deg bruke egne krypteringsnokler istedenfor leverandorens. Du genererer og kontrollerer noklene — skyleverandoren kan ikke lese dataene uten din nokkel. Azure Key Vault, AWS KMS og Google Cloud KMS stotter BYOK. Gir maksimal kontroll og reduserer risikoen fra FISA 702 / CLOUD Act.</div></div>
+<div class="faq-item"><div class="faq-q">Hva er Bring Your Own Key (BYOK)?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">BYOK lar deg bruke egne krypteringsnøkler istedenfor leverandørens. Du genererer og kontrollerer nøklene — skyleverandøren kan ikke lese dataene uten din nøkkel. Azure Key Vault, AWS KMS og Google Cloud KMS støtter BYOK. Gir maksimal kontroll og reduserer risikoen fra FISA 702 / CLOUD Act.</div></div>
 
-<div class="faq-item"><div class="faq-q">Hvordan migrerer jeg til skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Start med dataklassifisering: kartlegg type, volum og sensitivitet. Velg leverandor basert paa behov. Planlegg overforing med minimal nedetid. Kjor pilotmigrering med én avdeling. Parallellkjor lokalt og sky. Verifiser dataintegritet. Sett opp backup. Slett lokale kopier forst naar alt er verifisert. <a href="https://it-firma.no" class="il" target="_blank" rel="noopener">IT-FIRMA</a> tilbyr migreringsbistand.</div></div>
+<div class="faq-item"><div class="faq-q">Hvordan migrerer jeg til skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">Start med dataklassifisering: kartlegg type, volum og sensitivitet. Velg leverandør basert på behov. Planlegg overføring med minimal nedetid. Kjør pilotmigrering med én avdeling. Parallellkjør lokalt og sky. Verifiser dataintegritet. Sett opp backup. Slett lokale kopier først når alt er verifisert. <a href="https://it-firma.no" class="il" target="_blank" rel="noopener">IT-FIRMA</a> tilbyr migreringsbistand.</div></div>
 
 <div class="faq-item"><div class="faq-q">Hva er SLA for skylagring?<div class="faq-ico"><span>+</span></div></div><div class="faq-a">SLA (Service Level Agreement) garanterer oppetid og tilgjengelighet. AWS S3: 99.99% (under 53 min nedetid per aar). Azure Blob: 99.9-99.99%. Google Cloud Storage: 99.95-99.99%. Ved brudd kompenseres du med kreditt — typisk 10-30% av manedsbelopet. SLA dekker ikke datatap — du trenger backup uansett.</div></div>
 </div>
@@ -550,7 +550,7 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <div class="mf-logo-i"><svg viewBox="0 0 24 24" fill="none" stroke="url(#flg)" stroke-width="1.5"><defs><linearGradient id="flg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0ea5e9"/><stop offset="1" stop-color="#6366f1"/></linearGradient></defs><path d="M6 19a4.5 4.5 0 01-.5-8.97A7 7 0 0119 10a4 4 0 01.5 7.97"/><line x1="10" y1="14" x2="10" y2="21"/><line x1="14" y1="14" x2="14" y2="21"/></svg></div>
 <span class="mf-name">Skylager.no</span>
 </div>
-<p>Norges mest komplette guide til skylagring, skysikkerhet og GDPR-compliance. En del av IT-FIRMA-okosystemet.</p>
+<p>Norges mest komplette guide til skylagring, skysikkerhet og GDPR-compliance. En del av IT-FIRMA-økosystemet.</p>
 <div class="mf-trust">
 <div class="mf-trust-i" title="GDPR-compliant"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
 <div class="mf-trust-i" title="Kryptert"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/></svg></div>
@@ -570,7 +570,7 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 <a href="#faq"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M9 9a3 3 0 015.83 1c0 2-3 3-3 3"/></svg>FAQ</a>
 </div>
 <div>
-<h5>Data-okosystem</h5>
+<h5>Data-økosystem</h5>
 <a href="https://datalager.no" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 12h16"/></svg>Datalager.no</a>
 <a href="https://aiquantum.no" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4"/></svg>AIQUANTUM.no</a>
 <a href="https://quantumcloud.no" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 19a4.5 4.5 0 01-.5-8.97A7 7 0 0119 10a4 4 0 01.5 7.97"/></svg>QuantumCloud.no</a>
@@ -592,7 +592,7 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 </div>
 </div>
 <div class="mf-mid">
-<span class="mf-eco-label">Hele okosystemet:</span>
+<span class="mf-eco-label">Hele økosystemet:</span>
 <div class="mf-eco-links">
 <a href="https://skylager.no" class="mf-eco-pill" style="color:var(--c);border-color:rgba(14,165,233,.2)">Skylager.no</a>
 <a href="https://datalager.no" class="mf-eco-pill" target="_blank" rel="noopener">Datalager.no</a>
@@ -607,7 +607,7 @@ td{padding:12px 18px;border-bottom:1px solid rgba(255,255,255,.02);color:var(--t
 </div>
 <div class="mf-bot">
 <span>&copy; 2026 Skylager.no &mdash; Drevet av <a href="https://it-firma.no" target="_blank" rel="noopener">IT-FIRMA</a> &middot; Norges skylagringsguide</span>
-<span>Kunnskapsformidling, ikke raadgivning &middot; <a href="https://it-firma.no/personvern" target="_blank" rel="noopener">Personvern</a> &middot; <a href="https://it-firma.no/vilkaar" target="_blank" rel="noopener">Vilkaar</a></span>
+<span>Kunnskapsformidling, ikke rådgivning &middot; <a href="https://it-firma.no/personvern" target="_blank" rel="noopener">Personvern</a> &middot; <a href="https://it-firma.no/vilkaar" target="_blank" rel="noopener">Vilkår</a></span>
 </div>
 </footer>
 
